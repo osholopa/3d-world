@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box> -->
+      <a-assets>
+        <a-asset-item id="tree" src="./models/tree/lowPolyTree.gltf"></a-asset-item>
+        <a-asset-item id="tree-small" src="./models/tree1/lowPolyTree.gltf"></a-asset-item>
+        <a-asset-item id="tree-new" src="./models/tree2/lowPolyTree2.gltf"></a-asset-item>
+        <a-asset-item id="stones" src="./models/stone/lowPolyStones.gltf"></a-asset-item>
+        <a-asset-item id="stone" src="./models/stone/lowPolyStone.gltf"></a-asset-item>
+      </a-assets>
+      <!-- <a-plane position="0 0 -4" rotation="-90 0 0" scale="1 1 1" width="10" height="10" color="#294f06"></a-plane> -->
+      <a-cylinder id="ground" src="./img/ground.png" radius="32" height="0.1"></a-cylinder>
+      <a-sky id="background" src="./img/sky.png" theta-length="180" radius="30"></a-sky>
+      
+      <a-entity camera look-controls wasd-controls="acceleration: 500" position="0 0.5 0"></a-entity>
+
+      <a-entity position="1 0 1" rotation="0 45 0" scale="0.1 0.1 0.1" gltf-model="#tree"></a-entity>
+      <a-entity position="1 0 -5" rotation="0 45 0" scale="0.1 0.1 0.1" gltf-model="#tree-small"></a-entity>
+      <a-entity position="-0.5 0 -5" rotation="0 45 0" scale="0.1 0.1 0.1" gltf-model="#stones"></a-entity>
+      
+      <a-entity position="-2 0 0" rotation="0 45 0" scale="0.5 0.5 0.5" gltf-model="#stone"></a-entity>
+      <a-entity position="4 0 -1" rotation="0 45 0" scale="0.1 0.1 0.1" gltf-model="#tree-new"></a-entity>
+      <a-entity position="4 0 0" rotation="0 45 0" scale="0.1 0.1 0.1" gltf-model="#stones"></a-entity>
+    </a-scene>
+  </body>
+</html>

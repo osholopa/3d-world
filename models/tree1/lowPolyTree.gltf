@@ -1,0 +1,173 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                13.033424377441406,
+                18.218196868896484,
+                -5.537466526031494
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.42955949902534485,
+                0.37663623690605164,
+                -0.20347443222999573,
+                0.7951238751411438
+            ],
+            "translation" : [
+                34.79882049560547,
+                36.696502685546875,
+                28.50588607788086
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Puu",
+            "rotation" : [
+                0,
+                0.8095172047615051,
+                0,
+                0.5870961546897888
+            ],
+            "scale" : [
+                0.2791413366794586,
+                0.2791413366794586,
+                0.279141366481781
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "TreeMaterial",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "malliTreeTexture",
+            "uri" : "malliTreeTexture.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 788,
+            "max" : [
+                11.140643119812012,
+                36.185874938964844,
+                11.492792129516602
+            ],
+            "min" : [
+                -12.816627502441406,
+                -0.2603934109210968,
+                -8.80778694152832
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 788,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 788,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 1107,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 9456,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9456,
+            "byteOffset" : 9456
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6304,
+            "byteOffset" : 18912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2214,
+            "byteOffset" : 25216
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 27432,
+            "uri" : "lowPolyTree.bin"
+        }
+    ]
+}
