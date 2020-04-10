@@ -2,12 +2,16 @@
   "name": "3d-world",
   "version": "1.0.0",
   "description": "",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "aframe-watcher index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "ghpages"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osholopa/3d-world.git"
+    "url": "git+https://github.com/osholopa/3d-world.git",
+    "deploy": "ghpages"
   },
   "author": "Oskari Holopainen",
   "license": "ISC",
@@ -15,7 +19,5 @@
     "url": "https://github.com/osholopa/3d-world/issues"
   },
   "homepage": "https://github.com/osholopa/3d-world#readme",
-  "devDependencies": {
-    "ghpages": "0.0.10"
-  }
+  "devDependencies": {}
 }
